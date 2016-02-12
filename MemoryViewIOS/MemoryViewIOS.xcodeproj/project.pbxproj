@@ -62,8 +62,16 @@
 			children = (
 				534ED3021C6E6C6400576F97 /* MemoryViewIOS.h */,
 				534ED3041C6E6C6400576F97 /* MemoryViewIOS.mm */,
+				534ED30B1C6E766800576F97 /* New Group */,
 			);
 			path = MemoryViewIOS;
+			sourceTree = "<group>";
+		};
+		534ED30B1C6E766800576F97 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
