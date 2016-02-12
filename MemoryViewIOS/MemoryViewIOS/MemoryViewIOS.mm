@@ -67,14 +67,14 @@ extern "C"
     
     // GETTERS
     
-    static NSString* returnDocumentsDirectory()
+    static NSString* ReturnDocumentsDirectory()
     {
         NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
         NSString *doc = [paths objectAtIndex:0];
         return doc;
     }
     
-    double checkFreeSpace() {
+    double CheckFreeSpace() {
         uint64_t totalSpace = 0;
         uint64_t totalFreeSpace = 0;
         double HAVE;

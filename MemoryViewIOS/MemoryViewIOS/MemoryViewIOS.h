@@ -11,6 +11,4 @@
 @interface MemoryViewIOS : NSObject
 
 
-- (NSString*) returnDocumentsDirectory;
-
 @end
