@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		534ED2EE1C6E6A7200576F97 /* ios_memory_view.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 534ED2ED1C6E6A7200576F97 /* ios_memory_view.h */; };
-		534ED2F01C6E6A7200576F97 /* ios_memory_view.m in Sources */ = {isa = PBXBuildFile; fileRef = 534ED2EF1C6E6A7200576F97 /* ios_memory_view.m */; };
+		534ED3031C6E6C6400576F97 /* MemoryViewIOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 534ED3021C6E6C6400576F97 /* MemoryViewIOS.h */; };
+		534ED3051C6E6C6400576F97 /* MemoryViewIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 534ED3041C6E6C6400576F97 /* MemoryViewIOS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		534ED2E81C6E6A7200576F97 /* CopyFiles */ = {
+		534ED2FD1C6E6C6400576F97 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				534ED2EE1C6E6A7200576F97 /* ios_memory_view.h in CopyFiles */,
+				534ED3031C6E6C6400576F97 /* MemoryViewIOS.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		534ED2EA1C6E6A7200576F97 /* libios-memory-view.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-memory-view.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		534ED2ED1C6E6A7200576F97 /* ios_memory_view.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_memory_view.h; sourceTree = "<group>"; };
-		534ED2EF1C6E6A7200576F97 /* ios_memory_view.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_memory_view.m; sourceTree = "<group>"; };
+		534ED2FF1C6E6C6400576F97 /* libMemoryViewIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMemoryViewIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		534ED3021C6E6C6400576F97 /* MemoryViewIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryViewIOS.h; sourceTree = "<group>"; };
+		534ED3041C6E6C6400576F97 /* MemoryViewIOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryViewIOS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		534ED2E71C6E6A7200576F97 /* Frameworks */ = {
+		534ED2FC1C6E6C6400576F97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,95 +41,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		534ED2E11C6E6A7200576F97 = {
+		534ED2F61C6E6C6400576F97 = {
 			isa = PBXGroup;
 			children = (
-				534ED2EC1C6E6A7200576F97 /* ios-memory-view */,
-				534ED2EB1C6E6A7200576F97 /* Products */,
+				534ED3011C6E6C6400576F97 /* MemoryViewIOS */,
+				534ED3001C6E6C6400576F97 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		534ED2EB1C6E6A7200576F97 /* Products */ = {
+		534ED3001C6E6C6400576F97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				534ED2EA1C6E6A7200576F97 /* libios-memory-view.a */,
+				534ED2FF1C6E6C6400576F97 /* libMemoryViewIOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		534ED2EC1C6E6A7200576F97 /* ios-memory-view */ = {
+		534ED3011C6E6C6400576F97 /* MemoryViewIOS */ = {
 			isa = PBXGroup;
 			children = (
-				534ED2ED1C6E6A7200576F97 /* ios_memory_view.h */,
-				534ED2EF1C6E6A7200576F97 /* ios_memory_view.m */,
+				534ED3021C6E6C6400576F97 /* MemoryViewIOS.h */,
+				534ED3041C6E6C6400576F97 /* MemoryViewIOS.m */,
 			);
-			path = "ios-memory-view";
+			path = MemoryViewIOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		534ED2E91C6E6A7200576F97 /* ios-memory-view */ = {
+		534ED2FE1C6E6C6400576F97 /* MemoryViewIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 534ED2F31C6E6A7200576F97 /* Build configuration list for PBXNativeTarget "ios-memory-view" */;
+			buildConfigurationList = 534ED3081C6E6C6400576F97 /* Build configuration list for PBXNativeTarget "MemoryViewIOS" */;
 			buildPhases = (
-				534ED2E61C6E6A7200576F97 /* Sources */,
-				534ED2E71C6E6A7200576F97 /* Frameworks */,
-				534ED2E81C6E6A7200576F97 /* CopyFiles */,
+				534ED2FB1C6E6C6400576F97 /* Sources */,
+				534ED2FC1C6E6C6400576F97 /* Frameworks */,
+				534ED2FD1C6E6C6400576F97 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ios-memory-view";
-			productName = "ios-memory-view";
-			productReference = 534ED2EA1C6E6A7200576F97 /* libios-memory-view.a */;
+			name = MemoryViewIOS;
+			productName = MemoryViewIOS;
+			productReference = 534ED2FF1C6E6C6400576F97 /* libMemoryViewIOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		534ED2E21C6E6A7200576F97 /* Project object */ = {
+		534ED2F71C6E6C6400576F97 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "E-Link Entertainment";
 				TargetAttributes = {
-					534ED2E91C6E6A7200576F97 = {
+					534ED2FE1C6E6C6400576F97 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 534ED2E51C6E6A7200576F97 /* Build configuration list for PBXProject "ios-memory-view" */;
+			buildConfigurationList = 534ED2FA1C6E6C6400576F97 /* Build configuration list for PBXProject "MemoryViewIOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 534ED2E11C6E6A7200576F97;
-			productRefGroup = 534ED2EB1C6E6A7200576F97 /* Products */;
+			mainGroup = 534ED2F61C6E6C6400576F97;
+			productRefGroup = 534ED3001C6E6C6400576F97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				534ED2E91C6E6A7200576F97 /* ios-memory-view */,
+				534ED2FE1C6E6C6400576F97 /* MemoryViewIOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		534ED2E61C6E6A7200576F97 /* Sources */ = {
+		534ED2FB1C6E6C6400576F97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				534ED2F01C6E6A7200576F97 /* ios_memory_view.m in Sources */,
+				534ED3051C6E6C6400576F97 /* MemoryViewIOS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		534ED2F11C6E6A7200576F97 /* Debug */ = {
+		534ED3061C6E6C6400576F97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -172,7 +172,7 @@
 			};
 			name = Debug;
 		};
-		534ED2F21C6E6A7200576F97 /* Release */ = {
+		534ED3071C6E6C6400576F97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +209,7 @@
 			};
 			name = Release;
 		};
-		534ED2F41C6E6A7200576F97 /* Debug */ = {
+		534ED3091C6E6C6400576F97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
@@ -218,7 +218,7 @@
 			};
 			name = Debug;
 		};
-		534ED2F51C6E6A7200576F97 /* Release */ = {
+		534ED30A1C6E6C6400576F97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
@@ -230,24 +230,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		534ED2E51C6E6A7200576F97 /* Build configuration list for PBXProject "ios-memory-view" */ = {
+		534ED2FA1C6E6C6400576F97 /* Build configuration list for PBXProject "MemoryViewIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				534ED2F11C6E6A7200576F97 /* Debug */,
-				534ED2F21C6E6A7200576F97 /* Release */,
+				534ED3061C6E6C6400576F97 /* Debug */,
+				534ED3071C6E6C6400576F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		534ED2F31C6E6A7200576F97 /* Build configuration list for PBXNativeTarget "ios-memory-view" */ = {
+		534ED3081C6E6C6400576F97 /* Build configuration list for PBXNativeTarget "MemoryViewIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				534ED2F41C6E6A7200576F97 /* Debug */,
-				534ED2F51C6E6A7200576F97 /* Release */,
+				534ED3091C6E6C6400576F97 /* Debug */,
+				534ED30A1C6E6C6400576F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 534ED2E21C6E6A7200576F97 /* Project object */;
+	rootObject = 534ED2F71C6E6C6400576F97 /* Project object */;
 }
