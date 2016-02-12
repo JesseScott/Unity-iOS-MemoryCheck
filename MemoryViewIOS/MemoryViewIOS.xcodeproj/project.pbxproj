@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		534ED3031C6E6C6400576F97 /* MemoryViewIOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 534ED3021C6E6C6400576F97 /* MemoryViewIOS.h */; };
-		534ED3051C6E6C6400576F97 /* MemoryViewIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 534ED3041C6E6C6400576F97 /* MemoryViewIOS.m */; };
+		534ED3051C6E6C6400576F97 /* MemoryViewIOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 534ED3041C6E6C6400576F97 /* MemoryViewIOS.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		534ED2FF1C6E6C6400576F97 /* libMemoryViewIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMemoryViewIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		534ED3021C6E6C6400576F97 /* MemoryViewIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryViewIOS.h; sourceTree = "<group>"; };
-		534ED3041C6E6C6400576F97 /* MemoryViewIOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryViewIOS.m; sourceTree = "<group>"; };
+		534ED3041C6E6C6400576F97 /* MemoryViewIOS.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MemoryViewIOS.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				534ED3021C6E6C6400576F97 /* MemoryViewIOS.h */,
-				534ED3041C6E6C6400576F97 /* MemoryViewIOS.m */,
+				534ED3041C6E6C6400576F97 /* MemoryViewIOS.mm */,
 			);
 			path = MemoryViewIOS;
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				534ED3051C6E6C6400576F97 /* MemoryViewIOS.m in Sources */,
+				534ED3051C6E6C6400576F97 /* MemoryViewIOS.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

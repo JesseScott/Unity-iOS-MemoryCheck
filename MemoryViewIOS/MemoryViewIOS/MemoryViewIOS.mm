@@ -11,3 +11,11 @@
 @implementation MemoryViewIOS
 
 @end
+
+extern "C"
+{
+    void HelloFromUnity()
+    {
+        NSLog(@"howdy do!");
+    }
+}
