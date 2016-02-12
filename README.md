@@ -37,3 +37,7 @@ A simple Unity 3D Plugin that allows C# code to call a static C function to obta
 
   Currently the Plugin only has one method - _CheckFreeSpace()_, which returns a double (calculated to megabytes) of how much available space the iOS device has.
   Other methods may be added in the future, such as general file tree utilities - feel free to open an issue if one is requested.
+  
+## Troubleshooting
+
+By all means, open an issue, but amke sure you've followed the steps here: http://docs.unity3d.com/Manual/PluginsForIOS.html
