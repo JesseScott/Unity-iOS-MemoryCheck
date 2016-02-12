@@ -22,7 +22,7 @@ extern "C"
 {
     
     double CheckFreeSpace() {
-        NSLog(@"\n-- MEMORY VIEW UNITY/IOS PLUGIN -- \n");
+        NSLog(@"\n\n-- MEMORY VIEW UNITY/IOS PLUGIN -- \n");
         uint64_t totalSpaceInUnsignedInts = 0;
         uint64_t totalFreeSpaceInUnsignedInts = 0;
         double FREE_SPACE;
